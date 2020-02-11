@@ -1,0 +1,33 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3794359, 2019-08-07T05:35:21-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: GalanoGrotesqueAlt-Bold by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-bold/
+ * Copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ * Licensed pageviews: 500,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3794359
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+@import url('//hello.myfonts.net/count/39e5b7');
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/assets/fonts/galano-grotesque-bold.eot');
+  src: url('/assets/fonts/galano-grotesque-bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/galano-grotesque-bold.woff2') format('woff2'),
+    url('/assets/fonts/galano-grotesque-bold.woff') format('woff'),
+    url('/assets/fonts/galano-grotesque-bold.ttf') format('truetype');
+  font-display: swap;
+}

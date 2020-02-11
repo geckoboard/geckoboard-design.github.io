@@ -1,3 +1,46 @@
 .design-index {
-    background-color: pink;
+    display: flex;
+    background-color: #16113a;
+    margin: 0;
+    flex-direction: column;
+
+    @media screen and (min-width: 600px) {
+        flex-direction: row;
+    }
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.design-index__nav-container {
+    background-color: white;
+    width: 33vw;
+    padding: 2rem 0 0 3rem;
+    display: flex;
+    flex-direction: column;
+
+
+    @media screen and (min-width: 600px) {
+        width: 33vw;
+    }
+}
+
+.design-index__nav {
+    padding-top: 2rem;
+    max-width: 450px;
+
+
+    span {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-top: .5rem;
+    }
+
+    li {
+        font-size: 24px;
+        padding: 1.5rem 0;
+        font-family: 'Galano Grotesque';
+
+    }
 }
