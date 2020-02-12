@@ -1,0 +1,19 @@
+
+.nav-container--white {
+    background-color: white;
+    color: #16113a;
+
+    .nav-link__text {
+
+        color: #16113a;
+        
+        &:after {
+    
+          background-color: #16113a;
+        }
+    }
+}
+
+
+
+
