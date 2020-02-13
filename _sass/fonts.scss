@@ -23,11 +23,11 @@
 
 @font-face {
   font-family: 'Galano Grotesque';
-  src: url('../../../assets/fonts/galano-grotesque-bold.eot');
-  src: url('../../../assets/fonts/galano-grotesque-bold.eot?#iefix')
-      format('embedded-opentype'),
-    url('../../../assets/fonts/galano-grotesque-bold.woff2') format('woff2'),
-    url('../../../assets/fonts/galano-grotesque-bold.woff') format('woff'),
-    url('../../../assets/fonts/galano-grotesque-bold.ttf') format('truetype');
+  src: url('fonts/galano-grotesque-bold.eot');
+//   src: url('../../../assets/fonts/galano-grotesque-bold.eot?#iefix')
+//       format('embedded-opentype'),
+//     url('../../../assets/fonts/galano-grotesque-bold.woff2') format('woff2'),
+//     url('../../../assets/fonts/galano-grotesque-bold.woff') format('woff'),
+//     url('../../../assets/fonts/galano-grotesque-bold.ttf') format('truetype');
   font-display: swap;
 }
