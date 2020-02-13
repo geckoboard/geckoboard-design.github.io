@@ -10,7 +10,7 @@
 }
 
 .content-container {
-    width: 100vw;
+    // width: 100vw;
     margin: 2rem;
 
     @media screen and (min-width: 850px) {
@@ -21,6 +21,10 @@
 
     @media screen and (min-width: 1000px) {
         width: 70vw;
+        padding-left: 2rem;
+    }
+
+    @media screen and (min-width: 1400px) {
         padding: 4rem 0 0 6rem;
     }
 
@@ -48,6 +52,18 @@
     }
 }
 
+.inline-img--row {
+    @media screen and (min-width: 1000px) {
+        max-width: 400px;
+        display: inline-block;
+
+    }
+}
+
 .page-text-wrapper {
-    max-width: 680px;
+
+    @media screen and (min-width: 1000px) {
+        max-width: 680px;
+
+    }
 }
