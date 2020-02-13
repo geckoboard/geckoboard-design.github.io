@@ -8,3 +8,41 @@
         flex-direction: row;
     }
 }
+
+.content-container {
+    width: 100vw;
+
+    @media screen and (min-width: 850px) {
+        width: 60vw;
+        padding: 0;
+    }
+
+    @media screen and (min-width: 1000px) {
+        width: 70vw;
+        padding: 4rem 0 0 6rem;
+    }
+
+    @media screen and (min-width: 2000px) {
+        width: 73vw;
+    }
+}
+
+.full-width-img {
+    max-width: 1000px;
+
+    @media screen and (min-width: 1000px) {
+        margin-bottom: 3rem;
+    }
+}
+
+.inline-img {
+    max-width: 680px;
+
+    @media screen and (min-width: 1000px) {
+        margin: 2rem 0;
+    }
+}
+
+.page-text-wrapper {
+    max-width: 680px;
+}

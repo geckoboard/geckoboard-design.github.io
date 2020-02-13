@@ -1,15 +1,40 @@
+body {
+    font-family: 'Europa';
+    color: #16113a;
+    font-size: 20px;
+}
+
 h1 {
     font-size: 48px;
     margin: 0;
     font-family: 'Galano Grotesque';
+}
 
+h2 {
+    font-size: 40px;
+    font-family: 'Galano Grotesque';
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+    border-bottom: 2px solid #16113A;
+    color: #16113A;
 }
 
 ul {
     list-style: none;
     padding-left: 0;
+}
+
+p {
 }

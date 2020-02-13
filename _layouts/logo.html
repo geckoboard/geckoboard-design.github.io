@@ -68,4 +68,49 @@ layout: logo
 
     </div>
 
+    <div class="content-container">
+
+        <div class="page-text-wrapper">
+
+            <h2>Logo</h2>
+
+            <h3>Full logo</h3>
+
+            {% 
+                include components/info.html
+                content=page.info-wordmark.content 
+
+            %}
+
+        </div>
+
+        <img src="/assets/img/logo-geckoboard-colour--big.png" class="full-width-img">
+
+
+        <div class="page-text-wrapper">
+
+            <h3>Social logos</h3>
+
+            <p>Used for profile images</p>
+
+            <h4>Logo for use on light backgrounds:</h4>
+            <img src="/assets/img/light-bg-logo.png" class="inline-img">
+            {% 
+                include components/info.html
+                content=page.info-light-logo.content 
+
+            %}
+
+            <h4>Logo for use on dark backgrounds:</h4>
+            <p>i.e when used on a 'Geckoboard black' background</p>
+
+            <img src="/assets/img/dark-bg-logo.svg" class="inline-img">
+
+            <h3>Link to source files</h3>
+            <p>We also have round versions</p>
+
+            <p>Everything is in <a class="inline-link" href="https://drive.google.com/drive/u/0/folders/1FGmfbSZALmPwwfPKNF27ZuNVZn6Eywkr">here.</a></p
+        </div>
+    </div>
+
 </body>
