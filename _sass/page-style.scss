@@ -11,10 +11,12 @@
 
 .content-container {
     width: 100vw;
+    margin: 2rem;
 
     @media screen and (min-width: 850px) {
         width: 60vw;
         padding: 0;
+        margin: 0;
     }
 
     @media screen and (min-width: 1000px) {
@@ -28,18 +30,21 @@
 }
 
 .full-width-img {
-    max-width: 1000px;
+    width: 80%;
 
     @media screen and (min-width: 1000px) {
         margin-bottom: 3rem;
+        max-width: 1000px;
     }
 }
 
 .inline-img {
-    max-width: 680px;
+    width: 80%;
+    margin: 2rem 0;
 
     @media screen and (min-width: 1000px) {
-        margin: 2rem 0;
+        max-width: 680px;
+
     }
 }
 

@@ -1,0 +1,85 @@
+.colour-palette {
+
+}
+
+.colour-list {
+    span {
+        font-weight: bold;
+    }
+}
+.colour {
+    display: inline-block;
+    margin: 1rem;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.colour__swatch {
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;    
+}
+
+.colour__swatch--border {
+    border: 2px solid #16113a;
+   
+}
+
+.colour__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.geckoboard-black {
+    background-color: #16113A;
+}
+
+.geckoboard-green {
+    background-color: #0FD355;
+}
+
+.geckoboard-blue {
+    background-color: #00D1FF;
+}
+
+.geckoboard-white {
+    background-color: #e9e7f9;
+}
+
+.geckoboard-grey {
+    background-color: #f8f8f9;
+}
+
+.yellow {
+    background-color: #ffd339;
+}
+
+.mint {
+    background-color: #3cd3d3;
+}
+
+.pink {
+    background-color: #ff97aa;
+}
+
+.orange {
+    background-color: #FFB039;
+}
+
+.purple {
+    background-color: #CC9AF3;
+}
+
+.green {
+    background-color: #6CE4C7;
+}
+
+.royal-blue {
+    background-color: #4B9DE9;
+}
